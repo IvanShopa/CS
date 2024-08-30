@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.93);
+  background-color: rgba(0, 0, 0, 0.85);
 }
 header, footer {
   background-color: black;
@@ -27,7 +27,7 @@ header {
   padding: 24px;
 }
 .logo {
-  height: 100%;
+  height: 48px;
 }
 footer {
   display: flex;
@@ -40,6 +40,8 @@ footer {
 }
 main {
   flex-grow: 1;
+  padding: 90px;
+  grid-gap: 90px;
 }
 .center {
   display: flex;
@@ -64,8 +66,20 @@ h1 {
   border: 5px solid #03fa6e;
   font-size: 48px;
   text-decoration: none;
+  user-select: none;
+  width: 100%;
+  text-align: center;
 }
 .button:hover {
-  background-color: transparent;
+  background-color: rgba(3, 250, 110, 0.5);
   color: white;
+}
+.button:active {
+  background-color: rgba(250, 0, 0, 0.5);
+  color: white;
+}
+.link {
+  text-decoration: none;
+  color: #03fa6e;
+  font-weight: bold;
 }
