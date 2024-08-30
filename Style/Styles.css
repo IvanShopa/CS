@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+}
+body, h1 {
+  margin: 0px;
+}
+body {
+  background-color: black;
+  background-image: url(../Image/Pattern.png);
+
+  font-family: Arial;
+  color: white;
+}
+.rgba-black, header, nav, footer, .center {
+  display: flex;
+}
+.rgba-black, .center {
+  flex-direction: column;
+}
+.rgba-black {
+  background-color: rgba(0, 0, 0, 0.85);
+
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+header, .logo, footer {
+  height: 48px;
+}
+header, .button, footer {
+  padding: 24px;
+}
+header, footer, nav {
+  background-color: black;
+}
+header, .center {
+  justify-content: center;
+}
+header, .center, nav, footer {
+  align-items: center;
+}
+header, nav {
+  border-bottom: 5px solid white;
+}
+nav, .button, .link {
+  font-weight: bold;
+}
+nav {
+  height: 24px;
+  padding: 12px;
+  font-size: 24px;
+}
+main {
+  flex-grow: 1;
+  grid-gap: 48px;
+  padding: 48px;
+}
+h1 {
+  font-size: 96px;
+}
+.button, footer {
+  font-size: 48px;
+}
+.button {
+  box-sizing: border-box;
+
+  border: 5px solid #03fa6e;
+  background-color: #03fa6e;
+  color: black;
+  
+  text-align: center;
+
+  user-select: none;
+
+  width: 100%;
+}
+.button:hover {
+  background-color: rgba(3, 250, 110, 0.7);
+  color: white;
+}
+footer {
+  border-top: 5px solid white;
+}
+.link {
+  color: #03fa6e;
+}
