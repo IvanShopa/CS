@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
   else {
-    resultText += "-";
+    resultText += "—";
   }
   document.getElementById("weekResult").innerHTML = resultText;
 });
