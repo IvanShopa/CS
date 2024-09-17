@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
       resultText += Date6 + "-й, непарний, /.";
     }
     else {
-      resultText += Date6 + "-й, парний. *.";
+      resultText += Date6 + "-й, парний, *.";
     }
   }
   else {
