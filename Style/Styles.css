@@ -1,3 +1,6 @@
+html {
+  scrollbar-color: black #03fa6e;
+}
 html, body {
   height: 100%;
 }
@@ -53,6 +56,16 @@ main {
 }
 h1 {
   font-size: 96px;
+}
+h1::selection, nav div::selection, .link::selection,
+h2::selection, br::selection, .week::selection,
+.week span::selection, footer div::selection {
+  background-color: #03fa6e;
+  color: black;
+}
+td::selection {
+  background-color: white;
+  color: black;
 }
 .button, nav, table, footer, .week, h2 {
   font-size: 48px;
