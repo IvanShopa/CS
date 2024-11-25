@@ -108,3 +108,11 @@ td {
 .rgba-green {
   color: black;
 }
+nav {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+nav::-webkit-scrollbar {
+  display: none;
+}
