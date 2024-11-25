@@ -1,5 +1,5 @@
-html {
-  scrollbar-color: black #03fa6e;
+html::-webkit-scrollbar {
+  display: none;
 }
 html, body {
   height: 100%;
