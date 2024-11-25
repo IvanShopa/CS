@@ -46,7 +46,7 @@ header, .center, nav, footer {
 header, nav, .week {
   border-bottom: 5px solid white;
 }
-nav, .button, table, .link, .week {
+nav, .button, table, .link, .week, footer div {
   font-weight: bold;
 }
 main {
