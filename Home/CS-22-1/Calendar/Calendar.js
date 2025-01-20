@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   let Date1 = new Date();
-  let Date2 = new Date(2024, 0, 20);
-  let Date3 = new Date(2024, 5, 30);
+  let Date2 = new Date(2025, 0, 20);
+  let Date3 = new Date(2025, 5, 30);
 
   let resultText = "<span>Тиждень: </span>";
 
