@@ -32,6 +32,8 @@ html {
 }
 body {
   background: var(--white-black);
+  font-family: monospace;
+  font-size: 16px;
   margin: 0;
   -webkit-tap-highlight-color: transparent;
 }
@@ -115,4 +117,5 @@ td:last-child {
 }
 hr {
   border: var(--gray-1-2) dashed 1px;
+
 }
